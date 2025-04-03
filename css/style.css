@@ -50,7 +50,7 @@ body {
   color: #404bbf;
 }
 
-.hero h1 {
+.hero-h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -68,38 +68,30 @@ button {
 }
 
 .button-order {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  height: 56px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
 }
-.button-order:focus {
+.button-order:hover {
   background-color: #404bbf;
 }
 .button-order:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 
-.about ul li {
-  width: 264px;
-  height: 104px;
-}
-
-.about ul h3 {
+.about-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.about ul p {
+.about-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -107,17 +99,24 @@ button {
   color: #434455;
 }
 
-.team h2 {
-  font-family: 'Roboto', sans-serif;
+.about-item {
+  background-color: #ffffff;
+}
+
+.team-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+.team-li {
+  background-color: #ffffff;
 }
 
-.team ul h3 {
+.team-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,7 +125,7 @@ button {
   color: #2e2f42;
 }
 
-.team ul p {
+.team-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -139,16 +138,17 @@ button {
   background: #f4f4fd;
 }
 
-.portfolio h2 {
+.portfolio-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.portfolio ul h3 {
+.portfolio-h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -156,7 +156,7 @@ button {
   color: #2e2f42;
 }
 
-.portfolio ul p {
+.portfolio-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -171,12 +171,10 @@ button {
   color: #f4f4fd;
 }
 
-.page-footer p {
+.page-footer-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
-  height: 72px;
 }
