@@ -50,7 +50,7 @@ body {
   color: #404bbf;
 }
 
-.hero-h {
+.hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -82,7 +82,7 @@ button {
   background-color: #404bbf;
 }
 
-.about-h {
+.about-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
